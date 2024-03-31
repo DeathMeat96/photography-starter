@@ -6,10 +6,10 @@ module.exports = {
       secondary: 'Mulish',
     },
     screens: {
-      sm: '640px',
-      md: '768px',
-      lg: '1024px',
-      xl: '1192px',
+      sm: '480px',
+      md: '1024px',
+      lg: '1440px',
+      xl: '1920px',
     },
     extend: {
       colors: {
