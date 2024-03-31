@@ -18,6 +18,12 @@ module.exports = {
 
         accent: '#EEF7F9',
       },
+      backgroundImage: {
+        explosion: 'url("img/Bg1.png")',
+        circles: 'url("/bg-circles.png")',
+        circleStar: 'url("/circle-star.svg")',
+        site: 'url("/Bg1.png")',
+      },
     },
   },
   plugins: [],
