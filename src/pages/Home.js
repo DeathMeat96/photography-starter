@@ -21,13 +21,13 @@ const Home = () => {
           <p1 className='h1 sm:pt-0'>
           Magia baloanelor aduce zâmbete și emoții! </p1><br/> <p1 className='lg:text-2xl'> Lasă-ne să transformăm spațiul evenimentului tău  într-un loc memorabil.
           </p1> 
-          <Link to={'/contact'} className='btn sm:mb-[2px] sm:text-sm'>
+          <Link to={'/contact'} className='btn  sm:text-sm'>
           Contact
           </Link>
         </div>
           <div className='flex lg:justify-end sm:justify-center max-h-200 lg:max-h-max xl:max-h-max '>
-            <div className='relative overflow-hidden sm:pt-0   pt-36  '>
-            <Carousel className='lg:max-w-[1100px] sm:max-w-[350px]  lg:pt-28'>
+            <div className='relative overflow-hidden'>
+            <Carousel className='lg:max-w-[1100px] sm:max-w-[250px]  lg:pt-28 sm:pt-0'>
               <img src={Image1} alt=''/>
               <img src={Image3} alt='' />
               <img src={Image4} alt=''/>
