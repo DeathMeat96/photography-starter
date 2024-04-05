@@ -9,8 +9,8 @@ ImInstagram
 } from 'react-icons/im'
 
 const Socials = () => {
-  return <div className='hidden xl:flex ml-24'>
-    <ul className=''>
+  return <div className='sm:hidden lg:flex lg:flex-row md:flex md:flex-row md:gap-2 ml-24'>
+    <ul className='flex flex-row gap-5'>
       <li>
         <a href='http://www.facebook.com' target ='_blank'>
           <ImFacebook />

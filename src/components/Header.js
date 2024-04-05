@@ -10,13 +10,13 @@ import { Link} from 'react-router-dom'
  
 const Header = () => {
   return <header className='bg-purple-300	fixed w-full px-[30px] lg:px-[100px] z-30 
-  h-[50px] lg:h-[125px] flex items-center'>
-    <div className='flex flex-col lg:flex-row lg:items-center w-full justify-between'>
+  h-[50px] lg:h-[125px] md:h-[80px] flex items-center'>
+    <div className='flex flex-col lg:flex-row lg:items-center md:flex-row md:items-center w-full justify-between'>
 
-      <Link to={'/'} className='max-w-[100px] h-[40px] lg:max-w-[230px] lg:h-[90px]'>
+      <Link to={'/'} className='max-w-[100px] h-[40px] lg:max-w-[230px] lg:h-[90px] md:max-w-[200px] md:h-[90px]'>
         <img src={Logo} alt='' />
       </Link>
-      <nav className='hidden xl:flex gap-x-12 font-bold text-lg'>
+      <nav className='hidden md:flex md:gap-x-12 md:font-bold md:text-lg xl:flex gap-x-12 font-bold text-lg'>
         <Link
           to={'/'}
           className='text-[#696c6d] hover:text-primary transition'
